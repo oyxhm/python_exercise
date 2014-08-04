@@ -1,8 +1,8 @@
-#-*-coding:utf-8-*-
-#¹ØÓÚµ¥Î»×ª»»ºÍ·ÇÁãÊä³ö
+ï»¿#-*-coding:utf-8-*-
+#å…³äºå•ä½è½¬æ¢å’Œéé›¶è¾“å‡º
 import math
 
-input = raw_input("ÇëÊäÈëÄãÓĞ¶àÉÙÍ­£º")
+input = raw_input("è¯·è¾“å…¥ä½ æœ‰å¤šå°‘é“œï¼š")
 input = int(input)
 c = input % 100
 a = input / 10000
@@ -12,24 +12,24 @@ b = (input - a*10000) / 100
 if a == 0 :
 	if b == 0:
 		if c == 0:
-			print 'Ã»Ç®µÄÇîŒÅË¿'
+			print 'æ²¡é’±çš„ç©·å±Œä¸'
 		else :
-			print c ,'Í­'
+			print c ,'é“œ'
 	else:
 		if c == 0:
-			print b, 'Òø'
+			print b, 'é“¶'
 		else :
-			print b ,'Òø' ,c , 'Í­'
+			print b ,'é“¶' ,c , 'é“œ'
 else:
 	if b == 0:
 		if c == 0:
-			print a , '½ğ'
+			print a , 'é‡‘'
 		else :
-			print a , '½ğ' ,c ,'Í­'
+			print a , 'é‡‘' ,c ,'é“œ'
 	else:
 		if c == 0:
-			print a , '½ğ', b , 'Òø'
+			print a , 'é‡‘', b , 'é“¶'
 		else :
-			print a ,'½ğ' ,b ,'Òø', c, 'Í­' 
+			print a ,'é‡‘' ,b ,'é“¶', c, 'é“œ' 
 
 

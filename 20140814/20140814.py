@@ -1,7 +1,7 @@
 #-*-coding:utf-8-*-
 import math
 
-a = raw_input("ÇëÊäÈëÒ»¸öÊı£º")
+a = raw_input("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š")
 a = int(a)
 b = 2
 flag = 0
@@ -12,6 +12,6 @@ for b in range(2,int(a**0.5)+1):
 		flag = 1
 		break
 if flag :
-	print a,'²»ÊÇËØÊı'
+	print a,'ä¸æ˜¯ç´ æ•°'
 else :
-	print a,'ÊÇËØÊı'
+	print a,'æ˜¯ç´ æ•°'
